@@ -37,10 +37,24 @@ conda env create -f environment.yml
 ```
 conda activate football-tracking
 ```
-    
+
 * Verify Installation: Verify that all dependencies have been installed correctly :
 ```
 conda list
 ```
+* Verify Installation: Verify that all dependencies have been installed correctly :
+```
+conda list
+```
+* run demo_track.py :
+```
+# -- bird will generate bird eye view 
+tools/demo_track.py video --path path_to_your_video -f exps/yolox_s.py -c pretrained/best_ckpt.pth   --fuse --save_result -cc pretrained/large.pt --device cpu --res resnet152_weights_tf_dim_ordering_tf_kernels.h5 --bird
+```
+
+## Referneces 
+* [Bytetrack_reid mode](https://www.bing.com/ck/a?!&&p=308a68d807329060JmltdHM9MTcwNzQzNjgwMCZpZ3VpZD0xODRjYjVhMS1iNmE2LTYxYzYtMTBhNC1hNzg1YjdkYTYwMjcmaW5zaWQ9NTQ1OQ&ptn=3&ver=2&hsh=3&fclid=184cb5a1-b6a6-61c6-10a4-a785b7da6027&psq=bytetrack+reid&u=a1aHR0cHM6Ly9naXRodWIuY29tL0hhbkd1YW5nWGluL0J5dGVUcmFja19SZUlE&ntb=1)
+* [football analysisi](https://github.com/FootballAnalysis/footballanalysis)
+* [soccer net challenge](https://www.soccer-net.org/challenges/2023)
 
 
