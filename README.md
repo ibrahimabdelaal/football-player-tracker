@@ -1,8 +1,8 @@
  ## Football Player Tracking using ByteTrack \
-**Dual Tracking**\
-* ByteTrack:\
-Responsible for tracking individual soccer players.\
-Offers a balance between accuracy and speed.\
+**Dual Tracking** \
+* ByteTrack: \
+Responsible for tracking individual soccer players. \
+Offers a balance between accuracy and speed. \
 * ByteTrack_Reid:
 Specifically designed for ball tracking, enhancing capabilities to follow the ball effectively.
 Leveraging Strengths
