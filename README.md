@@ -1,43 +1,45 @@
-#Football Player Tracking using Bytetrack
-Goal
-The goal of this project is to address challenges in tracking soccer players and the ball during matches.
+ ## Football Player Tracking using ByteTrack 
+Tracking football players using Bytetrack combined with yolov5 models
+\*two Bytetrack models has been used in this project : 
+*original Bytetrack model to track players 
+*Bytetrack_Id model to track ball using feature extraction approch to help in re identification
 
-Pipeline Approach
-We propose a pipeline that integrates both the original Bytetrack model and the Bytetrack_Reid model.
-
-Dual Tracking
-We utilize two trackers simultaneously:
-
-Bytetrack: This tracker is dedicated to soccer player tracking.
-Bytetrack_Reid: This tracker is specifically designed for ball tracking.
+*Dual Tracking
+\**ByteTrack**:
+Responsible for tracking individual soccer players.
+Offers a balance between accuracy and speed.
+ByteTrack_Reid:
+Specifically designed for ball tracking, enhancing capabilities to follow the ball effectively.
 Leveraging Strengths
-Bytetrack: This tracker offers a tradeoff between accuracy and speed for player tracking.
-Bytetrack_Reid: This tracker enhances ball tracking capabilities.
+ByteTrack provides efficient player tracking while maintaining accuracy.
+ByteTrack_Reid improves ball tracking precision.
 Enhanced Performance
-By integrating both trackers, we aim to improve the overall tracking performance for soccer players and the ball.
+By integrating both trackers, we aim to achieve comprehensive and accurate tracking of players and the ball throughout the match.
 
-Fine Tuning Process
-A fine-tuning process was conducted to optimize the performance of the trackers:
-
-Matching Threshold: Tuning was performed to find the best threshold for matching.
-Confidence Threshold: Thresholds were adjusted to enhance confidence in tracking results.
-Kalman Filter: Additionally, the Kalman filter was fine-tuned to improve tracking accuracy.
+Fine-Tuning Process
+Matching Threshold: Optimized to identify the best threshold for accurately matching detections across frames.
+Confidence Threshold: Adjusted to ensure confidence in the tracking results, minimizing false positives.
+Kalman Filter: Fine-tuned to predict player and ball movements, improving tracking accuracy.
 Feature Extractor
-For Bytetrack_Reid, we utilized ResNet as the feature extractor. However, it is worth noting that the ResNet model was not fine-tuned specifically for this task. For better results, it is recommended to fine-tune the ResNet model on data relevant to soccer player and ball tracking.
-
+ByteTrack_Reid: Employs ResNet as the feature extractor, although it hasn't been fine-tuned specifically for this task.
+For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer player and ball tracking.
 Bird's Eye View
-We provide a bird's eye view of the field to visualize player and ball movements during matches. This view offers comprehensive insights into the game dynamics.
-
+We provide a bird's eye view of the field, visually displaying player and ball movements for better understanding of the game dynamics.
 Result Visualization
-Check out the video here for a visual demonstration of the tracking results.
-
+Refer to the provided video for a visual demonstration of the tracking results in action.
 Usage
-To use the system, follow these steps:
-
-Install dependencies listed in requirements.txt.
-Run the main script with appropriate arguments to start tracking.
-css
-Copy code
+Install required dependencies listed in requirements.txt.
+Run the main script with the following command:
+Bash
 python main.py --input_video path_to_video
-Acknowledgments
-We would like to acknowledge the creators of Bytetrack and Bytetrack_Reid for their valuable contributions to player and ball tracking technology in soccer.
+Use code with caution. Learn more
+Replace path_to_video with the actual path to your video file.
+
+Additional Notes
+This readme provides a high-level overview of the project. For detailed implementation details, please refer to the project code itself.
+Feel free to modify and customize the pipeline based on your specific needs and available resources.
+Formatting:
+
+I've added headings with appropriate levels (###, ####) for better readability.
+I've used bullet points for lists to improve scannability.
+I've added short descriptions for technical terms like "Kalman Filter" and "ResNet" to make the readme more accessible to a wider audience.
