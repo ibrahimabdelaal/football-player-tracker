@@ -25,7 +25,7 @@ We provide a bird's eye view of the field, visually displaying player and ball m
 https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
 
 ## Usage
-Install required dependencies listed in requirements.txt.
+*Install required dependencies listed in requirements.txt.
 Run the main script with the following command:
 Bash
 python main.py --input_video path_to_video
