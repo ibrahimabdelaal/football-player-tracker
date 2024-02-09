@@ -1,4 +1,4 @@
- ## Football Player Tracking using ByteTrack \
+ ## Football Player Tracking using ByteTrack 
 **Dual Tracking** 
 * ByteTrack: 
 Responsible for tracking individual soccer players. 
@@ -17,12 +17,12 @@ By integrating both trackers, we aim to achieve comprehensive and accurate track
 * Kalman Filter: Fine-tuned to predict player and ball movements, improving tracking accuracy.
 Feature Extractor
 * ByteTrack_Reid: Employs ResNet as the feature extractor, although it hasn't been fine-tuned specifically for this task.
-For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer player and ball tracking.
+  For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer player and ball tracking.
 ## Bird's Eye View
 We provide a bird's eye view of the field, visually displaying player and ball movements for better understanding of the game dynamics.
 
 ##Result Visualization
-[![Watch the video]([https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA](https://drive.google.com/file/d/1m_adSwIJZ-qFR5KAN8Zdn3Eqbbkcqofo/view?usp=sharing))
+[![Watch the video]([[https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA](https://drive.google.com/file/d/1m_adSwIJZ-qFR5KAN8Zdn3Eqbbkcqofo/view?usp=sharing)](https://drive.google.com/file/d/1m_adSwIJZ-qFR5KAN8Zdn3Eqbbkcqofo/view?usp=sharing))
 
 
 Usage
