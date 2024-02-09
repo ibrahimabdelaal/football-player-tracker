@@ -25,8 +25,8 @@ We provide a bird's eye view of the field, visually displaying player and ball m
 https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
 
 ## Usage
-* downlod yolov5 [weights] (https://drive.google.com/file/d/1-7UUm0XAZhVwzBHHL-zvh7WHGzYXN8df/view?usp=sharing)
-  and Bird eye view  [weights] (https://drive.google.com/file/d/1-5wsJH4mnOGrcJ6exoSC3y3zPC8L94lS/view?usp=sharing)
+* downlod yolov5 [weights] : (https://drive.google.com/file/d/1-7UUm0XAZhVwzBHHL-zvh7WHGzYXN8df/view?usp=sharing)
+  and Bird eye view  [weights] : (https://drive.google.com/file/d/1-5wsJH4mnOGrcJ6exoSC3y3zPC8L94lS/view?usp=sharing)
 *Create Conda Environment: First, create a new Conda environment using the provided YAML file.
     conda env create -f environment.yml
 *Activate Environment: Activate the newly created environment.
