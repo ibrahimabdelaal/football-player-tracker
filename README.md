@@ -25,18 +25,13 @@ We provide a bird's eye view of the field, visually displaying player and ball m
 https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
 
 ## Usage
-*Install required dependencies listed in requirements.txt.
-Run the main script with the following command:
-Bash
-python main.py --input_video path_to_video
-Use code with caution. Learn more
-Replace path_to_video with the actual path to your video file.
+* downlod yolov5 weights here [https://drive.google.com/file/d/1-7UUm0XAZhVwzBHHL-zvh7WHGzYXN8df/view?usp=sharing] and Bird eye view 
+  weights here [https://drive.google.com/file/d/1-5wsJH4mnOGrcJ6exoSC3y3zPC8L94lS/view?usp=sharing]
+*Create Conda Environment: First, create a new Conda environment using the provided YAML file.
+    conda env create -f environment.yml
+*Activate Environment: Activate the newly created environment.
+    conda activate football-tracking
+*Verify Installation: Verify that all dependencies have been installed correctly.
+    conda list
 
-Additional Notes
-This readme provides a high-level overview of the project. For detailed implementation details, please refer to the project code itself.
-Feel free to modify and customize the pipeline based on your specific needs and available resources.
-Formatting:
 
-I've added headings with appropriate levels (###, ####) for better readability.
-I've used bullet points for lists to improve scannability.
-I've added short descriptions for technical terms like "Kalman Filter" and "ResNet" to make the readme more accessible to a wider audience.
