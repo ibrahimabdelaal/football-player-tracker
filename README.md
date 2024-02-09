@@ -1,8 +1,8 @@
  ## Football Player Tracking using ByteTrack \
-**Dual Tracking** \
-* ByteTrack: \
-Responsible for tracking individual soccer players. \
-Offers a balance between accuracy and speed. \
+**Dual Tracking** 
+* ByteTrack: 
+Responsible for tracking individual soccer players. 
+Offers a balance between accuracy and speed. 
 * ByteTrack_Reid:
 Specifically designed for ball tracking, enhancing capabilities to follow the ball effectively.
 Leveraging Strengths
@@ -11,17 +11,20 @@ ByteTrack_Reid improves ball tracking precision through feature extraction using
 Enhanced Performance
 By integrating both trackers, we aim to achieve comprehensive and accurate tracking of players and the ball throughout the match.
 
-* Fine-Tuning Process\
-Matching Threshold: Optimized to identify the best threshold for accurately matching detections across frames.\
-Confidence Threshold: Adjusted to ensure confidence in the tracking results, minimizing false positives.\
-Kalman Filter: Fine-tuned to predict player and ball movements, improving tracking accuracy.\
-Feature Extractor\
-ByteTrack_Reid: Employs ResNet as the feature extractor, although it hasn't been fine-tuned specifically for this task.\
-For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer player and ball tracking.\
+**Fine-Tuning Process**
+* Matching Threshold: Optimized to identify the best threshold for accurately matching detections across frames.
+* Confidence Threshold: Adjusted to ensure confidence in the tracking results, minimizing false positives.
+* Kalman Filter: Fine-tuned to predict player and ball movements, improving tracking accuracy.
+Feature Extractor
+* ByteTrack_Reid: Employs ResNet as the feature extractor, although it hasn't been fine-tuned specifically for this task.
+For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer player and ball tracking.
 ## Bird's Eye View
 We provide a bird's eye view of the field, visually displaying player and ball movements for better understanding of the game dynamics.
-Result Visualization
-Refer to the provided video for a visual demonstration of the tracking results in action.
+
+##Result Visualization
+[![Watch the video]([https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA](https://drive.google.com/file/d/1m_adSwIJZ-qFR5KAN8Zdn3Eqbbkcqofo/view?usp=sharing))
+
+
 Usage
 Install required dependencies listed in requirements.txt.
 Run the main script with the following command:
