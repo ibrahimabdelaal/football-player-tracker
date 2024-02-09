@@ -30,17 +30,17 @@ https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d
   
 * Create Conda Environment: First, create a new Conda environment using the provided YAML file.\
 '''
-   conda env create -f environment.yml
+conda env create -f environment.yml
 '''
     
 * Activate Environment: Activate the newly created environment.\
-  '''
-    conda activate football-tracking
-  '''
+'''
+conda activate football-tracking
+'''
     
 * Verify Installation: Verify that all dependencies have been installed correctly.\
 '''
-    conda list
+conda list
 '''
 
 
