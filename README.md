@@ -21,8 +21,9 @@ Feature Extractor
 ## Bird's Eye View
 We provide a bird's eye view of the field, visually displaying player and ball movements for better understanding of the game dynamics.
 
-##Result Visualization
-[![Watch the video]([[https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA](https://drive.google.com/file/d/1m_adSwIJZ-qFR5KAN8Zdn3Eqbbkcqofo/view?usp=sharing)](https://drive.google.com/file/d/1m_adSwIJZ-qFR5KAN8Zdn3Eqbbkcqofo/view?usp=sharing))
+## Result Visualization
+https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
+
 
 
 Usage
