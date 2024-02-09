@@ -1,6 +1,6 @@
  ## Football Player Tracking using ByteTrack 
 Tracking football players using Bytetrack combined with yolov5 models
-\*two Bytetrack models has been used in this project : 
+*two Bytetrack models has been used in this project : 
 *original Bytetrack model to track players 
 *Bytetrack_Id model to track ball using feature extraction approch to help in re identification
 
