@@ -21,6 +21,9 @@ Feature Extractor
 ## Bird's Eye View
 We provide a bird's eye view of the field, visually displaying player and ball movements for better understanding of the game dynamics.
 
+## Bird's Eye View
+Segemnt anything model (SAM) added to segemnt any player by id you can type the id player you want to segemnt.Such feature will be very useful for analysis.
+
 ## Result Visualization
 https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
 
