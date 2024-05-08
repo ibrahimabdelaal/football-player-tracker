@@ -24,6 +24,11 @@ We provide a bird's eye view of the field, visually displaying player and ball m
 ## Result Visualization
 https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
 
+## Result Visualization for SAM model to segment any player by id
+https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/11e9890d-ef35-4467-8c13-b88aad455794
+
+
+
 ## Usage
 * downlod yolov5 [weights](https://drive.google.com/file/d/1-7UUm0XAZhVwzBHHL-zvh7WHGzYXN8df/view?usp=sharing)\
     and Bird eye view [weights](https://drive.google.com/file/d/1-5wsJH4mnOGrcJ6exoSC3y3zPC8L94lS/view?usp=sharing)
