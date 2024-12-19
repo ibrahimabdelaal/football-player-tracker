@@ -17,12 +17,12 @@ By integrating both trackers, we aim to achieve comprehensive and accurate track
 * Kalman Filter: Fine-tuned to predict player and ball movements, improving tracking accuracy.
 Feature Extractor
 * ByteTrack_Reid: Employs ResNet as the feature extractor, although it hasn't been fine-tuned specifically for this task.
-  For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer player and ball tracking.
+  For improved performance, consider fine-tuning ResNet on a dataset dedicated to soccer players and ball tracking.
 ## Bird's Eye View
 We provide a bird's eye view of the field, visually displaying player and ball movements for better understanding of the game dynamics.
 
 ## Bird's Eye View
-Segemnt anything model (SAM) added to segemnt any player by id you can type the id player you want to segemnt.Such feature will be very useful for analysis.
+Segment anything model (SAM) added to segment any player by id you can type the id player you want to segment. Such a feature will be very useful for analysis.
 
 ## Result Visualization
 https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/bb23d41c-f7d1-43d9-b51d-1d46cebc9984
@@ -33,7 +33,7 @@ https://github.com/ibrahimabdelaal/football-player-tracker/assets/49596777/11e98
 
 
 ## Usage
-* downlod yolov5 [weights](https://drive.google.com/file/d/1-7UUm0XAZhVwzBHHL-zvh7WHGzYXN8df/view?usp=sharing)\
+* download yolov5 [weights](https://drive.google.com/file/d/1-7UUm0XAZhVwzBHHL-zvh7WHGzYXN8df/view?usp=sharing)\
     and Bird eye view [weights](https://drive.google.com/file/d/1-5wsJH4mnOGrcJ6exoSC3y3zPC8L94lS/view?usp=sharing)
   
 * Create Conda Environment: First, create a new Conda environment using the provided YAML file :
@@ -56,8 +56,8 @@ conda list
 ```
 * run demo_track.py :
 ```
-# -- bird will generate bird eye view 
-tools/demo_track.py video --path path_to_your_video -f exps/yolox_s.py -c pretrained/best_ckpt.pth   --fuse --save_result -cc pretrained/large.pt --device cpu --res resnet152_weights_tf_dim_ordering_tf_kernels.h5 --bird
+# -- bird will generate bird's eye view 
+tools/demo_track.py video --path path_to_your_video -f exps/yolox_s.py -c pretrained/best_ckpt.pth   --fuse --save_result -cc pre trained/large.pt --device cpu --res resnet152_weights_tf_dim_ordering_tf_kernels.h5 --bird
 ```
 
 ## References 
